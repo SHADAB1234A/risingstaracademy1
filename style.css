@@ -1,0 +1,94 @@
+
+header{
+    margin-top: 20px;
+}
+.header{
+    font-size: 35px;
+    color: rgba(26, 26, 208, 0.986);
+    font-weight: bold;
+    text-shadow: 2px 1px 1px gray;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    
+}
+.logo{
+    margin-left: 100px;
+}
+
+span{
+    margin-left: 100px;
+    font-weight: bold;
+    color: green;
+}
+p{
+    margin-left: 80px;
+}
+h6{
+    font-size: 15px;
+    margin-top: 5px;
+    color: blue;
+}
+nav{
+    background-color: green;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+a:hover{
+    color: greenyellow;
+}
+
+/*======Contact Detail section ===*/
+h3{
+    margin-top: 30px;
+}
+.contactone {
+
+    padding-left:2em;
+    padding-right:2em;
+    margin-top: 5px;
+    font-size:18px; 
+    font-weight: bold; 
+    font-style: oblique
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .header{
+        font-size: 25px;
+        color: rgba(26, 26, 208, 0.986);
+        font-weight: bold;
+        text-shadow: 2px 1px 1px gray;
+        letter-spacing: 3px;
+        margin-left: 40px;
+        
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    span{
+        margin-left: -2px;
+       
+    }
+    p{
+        margin-left: -2px;
+    }
+    h6{
+        font-size: 15px;
+        margin-top: 5px;
+        color: blue;
+    }
+    .carousel-item{
+        height: 350px;
+        width: 100%;
+    }
+  }
+  
